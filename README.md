@@ -8,8 +8,7 @@ To get started simply clone this repository, then browse each sub-directory for 
 Tools on the project root are usable directly.
 
 You can use this repo in conjunction with the Vagrant Kali-Linux base-box you'll find here: 
-
-[https://app.vagrantup.com/zfpsystems/boxes/kali-base-x86_64] 
+https://app.vagrantup.com/zfpsystems/boxes/kali-base-x86_64 
 
 to have a full automated build environment and deploy of your testing VM.
 
@@ -21,17 +20,17 @@ You need git to clone this repository, obviously. You can get git from
 Scripts are mostly Python scripts so you'll need a Python interpreter installed and fully working.
 
 You'll need ZAProxy installed, you can find the latest release here: 
-[https://github.com/zaproxy/zaproxy]
+[https://github.com/zaproxy/zaproxy](ZAProxy github.com repo) 
 
 You'll need Java VM installed.
 
 ### Install
 To install the automation tools just clone this repo inside your Kali Linux (or the system you want to use to run ZAProxy):
 ```
-git clone https://github.com/zfpsystems/zap-automation
+git clone https://github.com/zfpsystems/zaproxy-automation
 ```
 
-I usually test these tools from /opt/zfpsystems/zap-automaion , but you can use whatever path you prefer.
+I usually test these tools from /opt/zfpsystems/zaproxy-automaion, but you can use whatever path you prefer.
 
 Tools come with different licenses so please check sub-directory for licenses.
 
@@ -52,7 +51,4 @@ If you have ZAProxy automation scripts you want to include in this collection pl
 - Please note: This is a public and open source repository, so do not add copyrighted stuff that won't allow me to publish your automation tools.
 
 Thanks!
-
-
-
 
