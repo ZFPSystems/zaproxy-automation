@@ -14,15 +14,15 @@ to have a full automated build environment and deploy of your testing VM.
 
 ### Prerequisites
 
-You need git to clone this repository, obviously. You can get git from
-[http://git-scm.com/](http://git-scm.com/).
+- You need git to clone this repository, obviously. You can get git from
+  http://git-scm.com/
 
-Scripts are mostly Python scripts so you'll need a Python interpreter installed and fully working.
+- Scripts are mostly Python scripts so you'll need a Python interpreter installed and fully working.
 
-You'll need ZAProxy installed, you can find the latest release here: 
-[https://github.com/zaproxy/zaproxy](ZAProxy github.com repo) 
+- You'll need ZAProxy installed, you can find the latest release here: 
+  https://github.com/zaproxy/zaproxy
 
-You'll need Java VM installed.
+- You'll need Java VM installed.
 
 ### Install
 To install the automation tools just clone this repo inside your Kali Linux (or the system you want to use to run ZAProxy):
