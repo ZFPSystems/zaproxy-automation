@@ -1,0 +1,22 @@
+{
+  "name": "zap-penetration-test-suite",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Node.js script for automated testing using the OWASP ZAP tool, which is an integrated penetration testing tool for finding vulnerabilities in web applications.",
+  "main": "penetration.test.js",
+  "dependencies": {
+    "async": "^2.1.4",
+    "cli-progress": "^1.3.0",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "yield": "^0.0.6-8",
+    "zaproxy": "^0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node penetration.test.js"
+  },
+  "repository": {},
+  "author": "James Marcogliese",
+  "license": "Not yet defined."
+}
